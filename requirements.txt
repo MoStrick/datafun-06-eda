@@ -1,4 +1,9 @@
 ###Import Dependencies
 '''sh
-import jupyterlab pandas pyarrow matplotlib seaborn seahorse notebook
+
+pip install jupyterlab
+pip install pandas as pd
+pip install seaborn as sns
+pip install pyarrow notebook seahorse
+
 '''

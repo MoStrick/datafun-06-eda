@@ -1,0 +1,4 @@
+###Import Dependencies
+'''sh
+import jupyterlab pandas pyarrow matplotlib seaborn seahorse
+'''

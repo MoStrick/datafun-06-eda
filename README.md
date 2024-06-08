@@ -25,8 +25,23 @@ Rainbow CSV
 ### Step 1: Data Acquisition
 The data can be found at [Taxis Data](https://github.com/mwaskom/seaborn-data/blob/master/taxis.csv)
 
-Step 2:  Initial Data Inspection
-Step 3: Initial Descriptive Statistics
+Load the dataset into a pandas DataFrame - adjust this process for your custom data
+df_taxis = sns.load_dataset('iristaxis')
+
+Inspect first 5 rows of the DataFrame
+print(df.head(5))
+
+### Step 2:  Initial Data Inspection
+
+print(df.head(10))
+print(df.shape)
+print(df.dtypes)
+
+### Step 3: Initial Descriptive Statistics
+
+print(df.describe())
+
+
 Step 4: Initial Data Distribution for Numerical Columns
 Step 5. Initial Data Distribution for Categorical Columns
 Step 6. Initial Data Transformation and Feature Engineering

@@ -15,13 +15,16 @@ pip freeze > requirements.txt
 
 ### Extensions
 VS Code Jupyter Notebook Previewer
+Rainbow CSV
 
 
 
 ### Terminal Commands
 
-### Exploratory Data Analysis
-Step 1: Data Acquisition
+# Exploratory Data Analysis
+### Step 1: Data Acquisition
+The data can be found at [Taxis Data](https://github.com/mwaskom/seaborn-data/blob/master/taxis.csv)
+
 Step 2:  Initial Data Inspection
 Step 3: Initial Descriptive Statistics
 Step 4: Initial Data Distribution for Numerical Columns
